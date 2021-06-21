@@ -46,7 +46,7 @@ public class ServidorUDP {
 					mensajeRespuesta = "Chauuuuu cliente";
 				}
 				if(mensajeTexto.startsWith("Hola")) {
-					mensajeRespuesta = "hola cliente";
+					mensajeRespuesta = "hola cliente"; 
 				}
 				mensajeBytesEnviado = mensajeRespuesta.getBytes();
 				paqueteEnviado = new DatagramPacket(mensajeBytesEnviado, mensajeBytesEnviado.length,
