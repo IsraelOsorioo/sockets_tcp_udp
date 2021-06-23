@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author snake
- *
- */
-module sockets {
-}
